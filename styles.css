@@ -1,0 +1,29 @@
+#title
+{
+    background-image: url(./title\ background.jpg);
+    padding-bottom: 250px;
+    color:#FFFFFF;
+}
+#titletext
+{
+    color:#FFFFFF;
+}
+svg
+{
+    margin-left:30%;
+}
+#carouseltext
+{
+    text-align: center;
+}
+#meow
+{
+    border-radius:60%;
+    height : 200px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#footer
+{
+    background-image: url(./title\ background.jpg);
+}
