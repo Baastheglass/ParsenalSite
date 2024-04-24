@@ -1,8 +1,13 @@
+body
+{
+    background-color: #94c3cc;
+}
 #title
 {
     background-image: url(./title\ background.jpg);
     padding-bottom: 250px;
     color:#FFFFFF;
+    background-color: #94c3cc;
 }
 #titletext
 {
@@ -23,7 +28,70 @@ svg
     margin-top: 5%;
     margin-bottom: 5%;
 }
+#projectshowcase
+{
+    background-color: #FFFFFF;
+}
 #footer
 {
     background-image: url(./title\ background.jpg);
+}
+#move1
+{
+    position: absolute;
+    left: 5%;
+}
+#move2
+{
+    position: absolute;
+    left: 32.5%;
+}
+#move3
+{
+    position: absolute;
+    left: 60%;
+}
+section#title
+{
+    animation-name: scale;
+    animation-duration: 1.5s;
+}
+section#aboutme
+{
+    animation-name: uppies;
+    animation-duration: 2s;
+}
+@keyframes scale 
+{
+    0%
+    {
+        opacity: 0%;
+        scale: 50%;
+    }
+    50%
+    {
+        opacity: 0%;
+    }
+    100%
+    {
+        opacity: 100%;
+        scale: 100%;
+    }
+}
+@keyframes uppies
+{
+    0%
+    {
+        opacity: 0%;
+        margin-top: 100%;
+    }
+    50%
+    {
+        opacity: 0%;
+    }
+    100%
+    {
+        opacity: 100%;
+        margin-top: 0%;
+    }
 }
