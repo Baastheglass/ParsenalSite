@@ -9,6 +9,10 @@ body
     color:#FFFFFF;
     background-color: #94c3cc;
 }
+section
+{
+    width: 100vw;
+}
 #titletext
 {
     color:#FFFFFF;
@@ -60,6 +64,15 @@ section#aboutme
 {
     animation-name: uppies;
     animation-duration: 2s;
+}
+#move4
+{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+#move5
+{
+    margin-left: 10%;
 }
 @keyframes scale 
 {
