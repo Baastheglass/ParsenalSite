@@ -1,6 +1,6 @@
 body
 {
-    background-color: #94c3cc;
+    width: 100vw;
 }
 #title
 {
@@ -34,11 +34,18 @@ svg
 }
 #projectshowcase
 {
+    width: 100vw;
     background-color: #FFFFFF;
+}
+#aboutme
+{
+    width: 100vw;
 }
 #footer
 {
-    background-image: url(./title\ background.jpg);
+    background-image: url(/title\ background.jpg);
+    height: 30%;
+    padding-top: 300px;
 }
 #move1
 {
@@ -74,6 +81,15 @@ section#aboutme
 {
     margin-left: 10%;
 }
+#move6
+{
+    margin-left: -2.5%; 
+}
+#move7
+{
+    margin-left: 71.5%;
+    margin-top: -3%;
+}
 @keyframes scale 
 {
     0%
@@ -106,5 +122,21 @@ section#aboutme
     {
         opacity: 100%;
         margin-top: 0%;
+    }
+}
+@keyframes scale-a-lil 
+{
+    from 
+    {
+      scale: .5;
+    }
+}
+@media (prefers-reduced-motion: no-preference) 
+{
+    .post 
+    {
+        animation: scale-a-lil linear both;
+        animation-timeline: view();
+        animation-range: 20vh 60vh;
     }
 }
